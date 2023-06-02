@@ -1,5 +1,5 @@
 # Stock-Market-Analysis-React_WebApplication
-•  It is a web application developed using React and utilizes React Hooks for state management and component logic.
+•  It is a web application developed using React and utilizes React Hooks for state management and component logic which performs following functions listed below.
 
 # Analysis of the Indian Stock market
 Define a structure having 5 members’ wiz Open, High, Low and Close price of stock and volume.
