@@ -1,0 +1,144 @@
+h1{
+    text-align: center;
+    color:green;
+}
+body{
+    height: auto;
+}
+h2
+{
+    text-align:center;
+    color:darkblue;
+}
+#h3{
+    text-align:center;
+    font-size: 35px;
+    color:rgb(139, 0, 69);
+    border: 10px auto;
+}
+tr{
+    border: '0.5px solid darkblue';
+}
+#labq1{
+   
+    width: 25%;
+    height: 30px;
+    font: bold;
+    color: Black;
+ 
+    font-size: 25px;
+    padding-left: 18px;
+    margin-left:18%;
+    display:inline-block;
+    font: bold;
+  
+}
+#labq2{
+   
+    width: 25%;
+    height: 30px;
+   
+    color: Black;
+ 
+    font-size: 25px;
+    padding-left: 18px;
+    margin-top:10%;
+    margin-left:18.5%;
+    display:inline-block;
+    font: bold;
+  
+}
+#labq3{
+   
+    width: 25%;
+    height: 30px;
+   
+    color: Black;
+ 
+    font-size: 25px;
+    padding-left: 18px;
+    margin-top:4%;
+    margin-left:19%;
+    display:inline-block;
+    font: bold;
+  
+  
+}
+input[type="text1"]
+{
+    display:inline-block;
+    width: 25%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: Black;
+    background-color: bisque;
+    font-size: 20px;
+    padding-left: 18px;
+    margin-left:2%;
+    margin-top:5%;
+   
+}
+
+button{
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin: 3.5% auto;
+    cursor: pointer;
+    display:block;
+
+}
+#dates
+{
+    margin-left:69%;
+}
+
+.head
+{
+    text-align:center;
+    font-size:25px;
+}
+#o1
+{
+    color:darkviolet;
+}
+#o2
+{
+    color:darkviolet;
+    font-size: 20px;
+  display: inline;
+    width:12%;
+   margin-left: 2%;
+    border: 1px solid black;
+}
+#pc
+{
+    color:red;
+}
+.sortedstocks
+{
+    text-align:center;
+    font-size:28px;
+}
+#selectstock
+{  display:inline-flex;
+    font-size:20px;
+    margin-left:2%;
+    margin-top:6%;
+    color: darkmagenta;
+}
+.button-container {
+    display: flex;
+    gap: 5px;
+  }
+  .footer
+  {
+    font-size: 22px;
+    color:darkblue;
+    text-align: center;
+    font: bolder;
+  }
