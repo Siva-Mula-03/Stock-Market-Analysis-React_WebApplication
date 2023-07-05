@@ -49,24 +49,24 @@ function App() {
       />
       <br />
 
-      <table border="50" style={{ borderCollapse: 'collapse', border: '4px solid black', margin: '20px auto', width: '95%' }}>
-        <thead>
-          <tr style={{ border: '2px solid darkblue' }}>
-            {columnArray.map((col, i) => (
-              <th style={{ border: '1px solid black' }} key={i}>{col}</th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          {values.map((v, i) => (
-            <tr key={i}>
-              {v.map((value, j) => (
-                <td style={{ border: '2px solid black' }} key={j}>{value}</td>
-              ))}
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      // <table border="50" style={{ borderCollapse: 'collapse', border: '4px solid black', margin: '20px auto', width: '95%' }}>
+      //   <thead>
+      //     <tr style={{ border: '2px solid darkblue' }}>
+      //       {columnArray.map((col, i) => (
+      //         <th style={{ border: '1px solid black' }} key={i}>{col}</th>
+      //       ))}
+      //     </tr>
+      //   </thead>
+      //   <tbody>
+      //     {values.map((v, i) => (
+      //       <tr key={i}>
+      //         {v.map((value, j) => (
+      //           <td style={{ border: '2px solid black' }} key={j}>{value}</td>
+      //         ))}
+      //       </tr>
+      //     ))}
+      //   </tbody>
+      // </table>
       <StockPriceChange data={data} />
       <Question2 data={data} />
       <hr/>
